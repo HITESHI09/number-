@@ -1,0 +1,82 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled6.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyNF2AN88Rxecc6CW6mlFkTQ",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/HITESHI09/number-/blob/master/Fibonacci%20number\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "3kL4DINev0kw",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 277
+        },
+        "outputId": "79c05062-57b7-4a97-ad07-740c9425479a"
+      },
+      "source": [
+        "nterms =int(input(\"How many terms\"))\n",
+        "n1, n2 = 0, 1\n",
+        "count = 0\n",
+        "if nterms <= 0:\n",
+        "    print(\"Please enter a positive integer\")\n",
+        "elif nterms == 1:\n",
+        "   print(\"Fibonacci sequence upto nterm:\" )\n",
+        "   print(n1)\n",
+        "else:\n",
+        "     print(\"Fibonacci sequence:\")\n",
+        "while count < nterms:\n",
+        "    print(n1) \n",
+        "    nth = n1 + n2\n",
+        "    n1 = n2\n",
+        "    n2 = nth\n",
+        "    count +=1 "
+      ],
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "How many terms13\n",
+            "Fibonacci sequence:\n",
+            "0\n",
+            "1\n",
+            "1\n",
+            "2\n",
+            "3\n",
+            "5\n",
+            "8\n",
+            "13\n",
+            "21\n",
+            "34\n",
+            "55\n",
+            "89\n",
+            "144\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    }
+  ]
+}
