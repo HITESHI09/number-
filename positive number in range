@@ -1,0 +1,87 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled5.ipynb",
+      "provenance": [],
+      "collapsed_sections": [],
+      "authorship_tag": "ABX9TyO/xDASScqHqVxkWP233DS/",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/HITESHI09/number-/blob/master/positive%20number%20in%20range\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "dkQ7glWbmXVY",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 35
+        },
+        "outputId": "ace09253-9da0-4fa7-eb0f-333770946865"
+      },
+      "source": [
+        "# list of numbers\n",
+        "list1 = [12,-7,5,64,-14]\n",
+        "for num in list1:\n",
+        "     if num >=0:\n",
+        "      print(num, end =\" \")\n"
+      ],
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "12 5 64 "
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "eKicbdBRqfDQ",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 35
+        },
+        "outputId": "cc870d30-c87a-4a48-b56a-3e11f30dabc0"
+      },
+      "source": [
+        "# list of numbers\n",
+        " list2 = [12,14,-95,3]\n",
+        "for num in list2:\n",
+        "     if num >0:\n",
+        "        print(num, end =\" \")"
+      ],
+      "execution_count": 7,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "12 14 3 "
+          ],
+          "name": "stdout"
+        }
+      ]
+    }
+  ]
+}
